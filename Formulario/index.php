@@ -84,8 +84,8 @@ formulario:
                     <td><?php echo $fila['nombre'];?></td>
                     <td><?php echo $fila['email'];?></td>
                     <td><?php echo $fila['tel'];?></td>
-                    <td><a href="./function/update.php">editar</a></td>
-                    <td><a href="./function/delete.php?id=<?php echo $fila['id_usuario'];?>">eliminar</a></td>
+                   <td><a href="./view/update_form.php?id=<?php echo $fila[ 'id_usuario' ]; ?>"><i class="bi bi-pencil-square text-warning"></i></a></td>
+                    <td><a href="./function/delete.php?id=<?php echo $fila[ 'id_usuario' ]; ?>"><i class="bi bi-trash2-fill text-danger"></i></a></td>
                   </tr>
                   <?php $contador++;} ?>
                 </tbody>
