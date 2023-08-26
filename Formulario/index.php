@@ -23,6 +23,9 @@ formulario:
 <body>
   <header>
     <!-- place navbar here -->
+       <?php
+    include("./partials/navbar.html");
+    ?>
   </header>
   <main>
     <div class="container h-100" style="padding-top: 4rem;">
