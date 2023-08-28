@@ -60,7 +60,7 @@ formulario:
                   <tr>
                     <th scope="col">#</th>
                     <th scope="col">Nombres</th>
-                    <th scope="col">Emial</th>
+                    <th scope="col">Email</th>
                     <th scope="col">Teléfono</th>
                     <th scope="col"></th>
                     <th scope="col"></th>

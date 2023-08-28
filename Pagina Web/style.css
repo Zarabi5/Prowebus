@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap'); /* Esta línea importa la fuente 'Poppins' desde Google Fonts */
+
+
+* {  /*Esta sección establece que todas las etiquetas HTML no tendrán márgenes, rellenos, ni estilo de lista. Además, se establece que el tamaño de caja se ajustará al borde.    */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body { /*Esta sección establece que todo el cuerpo del documento HTML utilizará la fuente 'Poppins'.*/
+    font-family: 'Poppins', sans-serif;
+}
+
+.container { /*Esta sección establece que el ancho máximo del contenedor será de 1200 píxeles y se centrará horizontalmente en la página.*/
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header { /*Esta sección establece un fondo para el encabezado de la página, una imagen de fondo, la altura mínima de 70vh y alinea los elementos verticalmente. */
+    background-image: url(Imagenes/manos.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    align-items: center;
+    display: flex;
+}
+
+.menu {/*Esta sección establece la posición del menú y lo alinea horizontalmente.*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo { /*Esta sección establece el estilo del logotipo.*/
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+
+
+}
+
+.menu .navbar ul li { /*Esta sección establece la posición de los elementos del menú.*/
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a { /* Esta sección establece el estilo de los elementos del menú.*/
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+#menu { /* Esta sección oculta el menú.*/
+    display: none;
+}
+
+.menu-icono { /*Esta sección establece el estilo del icono del menú.*/
+    width: 25px;
+}
+
+.menu label { /*  establece estilos para las etiquetas asociadas con el menú*/
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt { /*Esta sección establece el estilo del texto en el encabezado.*/
+    text-align: center;
+
+}
+
+.header-txt h1{ /*Esta sección establece el estilo del título en el encabezado. */
+    font-size: 85px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.header-txt p { /*Esta sección establece el estilo del párrafo en el encabezado.*/
+    color: #1b293a;
+    font-size: 16px;
+    padding: 0 250px;
+    margin-bottom: 45px;
+
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 12px 45px;
+    border: 1px solid #fffdfc;
+    color: #fffdfc;
+    font-size:  16px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.btn-1:hover {
+    color: #1b293a;
+    background-color: #fffdfc;
+}
+
+.general {
+    padding: 50px 0;
+    text-align:  center;
+
+
+}
+
+.general-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.general-1{
+    background-image: url(Imagenes/sandwich-148023_1280.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+
+.general-2{
+    background-image: url(Imagenes/soup-297736_1280.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+
+.general-3{
+    background-image: url(Imagenes/vegetables-155616_1280.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+
+.general-4{
+    background-image: url(Imagenes/fast-food-2029402_1280.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+
+.general-5{
+    background-image: url(Imagenes/egg-sunny-side-up-155116_1280.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+
+.general-6{
+    background-image: url(Imagenes/canned-food-149221_1280.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+
+h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #1b293a;
+}
+
+.txt h3 {
+    font-size: 18px;
+    color: #1f0d04;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.txt p {
+    color: #01060c;
+    font-size: 16px;
+}
+
+.info-1 {
+    padding: 250px 0;
+    background-image: url(Imagenes/5723c2b6b9379564108b4567_0_20-1461963927\,043.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+}
+
+.info-content {
+    text-align: center;
+}
+
+.info-content h2, span {
+    color: #eee9e6;
+}
+
+.info-circle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.circle-txt {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.circle-1 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fffdfc;
+    border-radius: 50%;
+    padding-top: 35px;
+}
+
+.circle-1 h3 {
+    color: #fffdfc;
+    font-size: 16px;
+}
+
+.circle-txt p {
+    color: #fffdfc;
+    margin-top: 25px;
+}
+
+.info-2 {
+    padding: 250px 0;
+    background-image: url(Imagenes/balloon-381334_1280.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+.comenti {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.comenti-left {
+    width: 50%;
+    padding-right: 25px;
+}
+
+.comenti-right {
+    width: 50%;
+    padding-left: 35px;
+}
+
+.comenti-txt {
+    margin-bottom: 25px;
+}
+
+.comenti-txt img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.comenti-txt h3 {
+    font-size: 20px;
+    color: #0f0a07;
+}
+
+.comenti-txt p {
+    color: #2c0202;
+    font-size: 16px;
+}
+
+.footer {
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+
+.form {
+    margin-top: 35px;
+}
+.campo {
+    margin-right:  10px;
+    padding: 17px 35px;
+    border:  2px solid #ebebeb;
+    outline: none;
+    color: #1b293a;
+}
+
+.campo::placeholder {
+    color: #fffdfc;
+}
+
+.btn-2 {
+    padding: 17px 35px;
+    border: 2px solid #1b293a;
+    background-color: #1b293a;
+    color: #fffdfc;
+}
+
+.footer-txt {
+    margin-top:  100px;
+    border-top: 1px solid #eee9e6;
+    padding: 20px 0;
+}
+
+.footer-txt p {
+    color: #1b293a;
+    font-size: 16px;
+}
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #01060c;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~.navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height:  0vh;
+    }
+
+    .header-content {
+        padding:  100px 30px;
+    }
+
+    .header-txt h1 {
+        font-size: 50px;
+
+    }
+
+    .header-txt p {
+        padding: 0;
+
+    }
+
+    .general {
+        padding: 30px 30px 0px 30px;
+    }
+
+    .general-content {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .general-1,
+    .general-2,
+    .general-3,
+    .general-4,
+    .general-5,
+    .general-6 {
+        height: 350px;
+        padding:  100px 30px;
+        margin-bottom: 10px;
+    }
+
+    .info-1 {
+        padding: 200px 30px;
+        background-size: cover;
+        margin-top: -110px;
+
+    }
+
+    .info-circle {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .circle-txt {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .g2 {
+        margin-top: -120px;
+    }
+
+    .info-2 {
+        padding: 280px 30px;
+        background-size: cover;
+        margin-top: -180px;
+
+    }
+
+    .comenti {
+        flex-direction: column;
+    }
+
+    .comenti-left {
+        width: 100%;
+        padding-right: 0;
+
+    }
+
+    .comenti-right {
+        width: 100%;
+        padding-left: 0;
+
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .footer {
+        padding: 0;
+        margin-top: -140px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+
+    }
+
+    .campo {
+        margin: 0 0 10px 0;
+    }
+
+    .footer-txt {
+        margin-top: 30px;
+    }
+
+}
