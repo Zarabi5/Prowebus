@@ -160,24 +160,6 @@ body { /*Esta secci√≥n establece que todo el cuerpo del documento HTML utilizar√
     padding: 170px 55px;
 }
 
-.general-5{
-    background-image: url(Imagenes/egg-sunny-side-up-155116_1280.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
-}
-
-.general-6{
-    background-image: url(Imagenes/canned-food-149221_1280.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
-}
-
 h2 {
     font-size: 70px;
     text-transform: uppercase;
