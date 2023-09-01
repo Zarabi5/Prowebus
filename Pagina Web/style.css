@@ -95,7 +95,7 @@ body { /*Esta sección establece que todo el cuerpo del documento HTML utilizar�
 
 }
 
-.btn-1 {
+.btn-1 {/*Esta sección establece el estilo del botón.*/
     display: inline-block;
     padding: 12px 45px;
     border: 1px solid #fffdfc;
@@ -106,25 +106,26 @@ body { /*Esta sección establece que todo el cuerpo del documento HTML utilizar�
 
 }
 
-.btn-1:hover {
+.btn-1:hover {/*Esta sección establece el estilo del botón cuando se coloca el cursor sobre él.
+    */
     color: #1b293a;
     background-color: #fffdfc;
 }
 
-.general {
+.general {/* Esta sección establece el estilo para la sección general.    */
     padding: 50px 0;
     text-align:  center;
 
 
 }
 
-.general-content {
+.general-content {/*Esta sección establece el estilo para el contenido de la sección general.*/
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
 }
 
-.general-1{
+.general-1{/*Estas secciones establecen el estilo para cada uno de los elementos de la sección general.*/
     background-image: url(Imagenes/sandwich-148023_1280.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -133,7 +134,7 @@ body { /*Esta sección establece que todo el cuerpo del documento HTML utilizar�
     padding: 170px 55px;
 }
 
-.general-2{
+.general-2{/*Estas secciones establecen el estilo para cada uno de los elementos de la sección general.*/
     background-image: url(Imagenes/soup-297736_1280.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -142,7 +143,7 @@ body { /*Esta sección establece que todo el cuerpo del documento HTML utilizar�
     padding: 170px 55px;
 }
 
-.general-3{
+.general-3{/*Estas secciones establecen el estilo para cada uno de los elementos de la sección general */
     background-image: url(Imagenes/vegetables-155616_1280.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -151,7 +152,7 @@ body { /*Esta sección establece que todo el cuerpo del documento HTML utilizar�
     padding: 170px 55px;
 }
 
-.general-4{
+.general-4{/*Estas secciones establecen el estilo para cada uno de los elementos de la sección general. */
     background-image: url(Imagenes/fast-food-2029402_1280.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -160,25 +161,25 @@ body { /*Esta sección establece que todo el cuerpo del documento HTML utilizar�
     padding: 170px 55px;
 }
 
-h2 {
+h2 {/*Esta sección establece el estilo para los títulos secundarios.*/
     font-size: 70px;
     text-transform: uppercase;
     color: #1b293a;
 }
 
-.txt h3 {
+.txt h3 {/*Esta sección establece el estilo para los subtítulos.*/
     font-size: 18px;
     color: #1f0d04;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
-.txt p {
+.txt p {/*Esta sección establece el estilo para los párrafos.*/
     color: #01060c;
     font-size: 16px;
 }
 
-.info-1 {
+.info-1 {/*Esta sección establece el estilo para la primera sección de información.*/
     padding: 250px 0;
     background-image: url(Imagenes/5723c2b6b9379564108b4567_0_20-1461963927\,043.jpg);
     background-position: center center;
@@ -186,21 +187,21 @@ h2 {
     background-size: 80% 80%;
 }
 
-.info-content {
+.info-content {/*Esta sección establece el estilo para el contenido de la sección de información.*/
     text-align: center;
 }
 
-.info-content h2, span {
+.info-content h2, span {/*Esta sección establece el estilo para los títulos y subtítulos en la sección de información.*/
     color: #181411;
 }
 
-.info-circle {
+.info-circle {/*Esta sección establece el estilo para los círculos en la sección de información.*/
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
 }
 
-.circle-txt {
+.circle-txt {/*Esta sección establece el estilo para el texto dentro de los círculos en la sección de información.*/
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -209,7 +210,7 @@ h2 {
     margin: 0;
 }
 
-.circle-1 {
+.circle-1 {/*Esta sección establece el estilo para los círculos en la sección de información.*/
     height: 100px;
     width: 100px;
     border: 1px solid #fffdfc;
@@ -217,17 +218,17 @@ h2 {
     padding-top: 35px;
 }
 
-.circle-1 h3 {
+.circle-1 h3 {/*Esta sección establece el estilo para los círculos en la sección de información.*/
     color: #fffdfc;
     font-size: 16px;
 }
 
-.circle-txt p {
+.circle-txt p {/*Esta sección establece el estilo para los círculos en la sección de información.*/
     color: #fffdfc;
     margin-top: 25px;
 }
 
-.info-2 {
+.info-2 {/*Esta sección establece el estilo para la segunda sección de información.*/
     padding: 500px 0;
     background-image:  url(Imagenes/fond.jpg);
     background-position: center center;
@@ -235,51 +236,51 @@ h2 {
     background-size: 70%;
 }
 
-.comenti {
+.comenti {/*Esta sección establece el estilo para la sección de comentarios.*/
     display: flex;
     align-items: center;
     text-align: left;
     margin-top: 35px;
 }
 
-.comenti-left {
+.comenti-left {/*Estas secciones establecen el estilo para las columnas en la sección de comentarios. */
     width: 50%;
     padding-right: 25px;
 }
 
-.comenti-right {
+.comenti-right {/*Estas secciones establecen el estilo para las columnas en la sección de comentarios.  */
     width: 50%;
     padding-left: 35px;
 }
 
-.comenti-txt {
+.comenti-txt {/*Esta sección establece el estilo para los textos en la sección de comentarios.*/
     margin-bottom: 25px;
 }
 
-.comenti-txt img {
+.comenti-txt img {/*Esta sección establece el estilo para los textos en la sección de comentarios.*/
     width: 50px;
     margin-bottom: 15px;
 }
 
-.comenti-txt h3 {
+.comenti-txt h3 {/*Esta sección establece el estilo para los textos en la sección de comentarios.*/
     font-size: 20px;
     color: #0f0a07;
 }
 
-.comenti-txt p {
+.comenti-txt p {/*Esta sección establece el estilo para los textos en la sección de comentarios.*/
     color: #2c0202;
     font-size: 16px;
 }
 
-.footer {
+.footer {/*Esta sección establece el estilo para el pie de página.*/
     padding: 100px 0 0 0;
     text-align: center;
 }
 
-.form {
+.form {/*Esta sección establece el estilo para los formularios dentro del pie de página.*/
     margin-top: 35px;
 }
-.campo {
+.campo {/*Esta sección establece el estilo para los campos del formulario.*/
     margin-right:  10px;
     padding: 17px 35px;
     border:  2px solid #ebebeb;
@@ -287,29 +288,29 @@ h2 {
     color: #1b293a;
 }
 
-.campo::placeholder {
+.campo::placeholder {/*establece el estilo de texto del marcador de posición del campo de entrada.*/
     color: #805946;
 }
 
-.btn-2 {
+.btn-2 {/*Esta sección establece el estilo para los botones dentro del formulario.*/
     padding: 17px 35px;
     border: 2px solid #1b293a;
     background-color: #1b293a;
     color: #fffdfc;
 }
 
-.footer-txt {
+.footer-txt {/*Esta sección establece el estilo para los textos dentro del pie de página*/
     margin-top:  100px;
     border-top: 1px solid #141110;
     padding: 20px 0;
 }
 
-.footer-txt p {
+.footer-txt p {/*Esta sección establece el estilo para los textos dentro del pie de página*/
     color: #1b293a;
     font-size: 16px;
 }
 
-@media(max-width:991px) {
+@media(max-width:991px) {/*Este bloque de código contiene los estilos que serán aplicados cuando la pantalla tenga una anchura máxima de 991 píxeles.*/
 
     .menu {
         padding: 30px;
