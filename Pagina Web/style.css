@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap'); /* Esta línea importa la fuente 'Poppins' desde Google Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap'); /* Esta línea importa la fuente 'Poppins' desde Google Fonts */
 
 
 * {  /*Esta sección establece que todas las etiquetas HTML no tendrán márgenes, rellenos, ni estilo de lista. Además, se establece que el tamaño de caja se ajustará al borde.    */
@@ -191,7 +191,7 @@ h2 {
 }
 
 .info-content h2, span {
-    color: #eee9e6;
+    color: #181411;
 }
 
 .info-circle {
@@ -228,8 +228,8 @@ h2 {
 }
 
 .info-2 {
-    padding: 250px 0;
-    background-image: url(Imagenes/balloon-381334_1280.png);
+    padding: 500px 0;
+    background-image:  url(Imagenes/fond.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 70%;
@@ -288,7 +288,7 @@ h2 {
 }
 
 .campo::placeholder {
-    color: #fffdfc;
+    color: #805946;
 }
 
 .btn-2 {
@@ -300,7 +300,7 @@ h2 {
 
 .footer-txt {
     margin-top:  100px;
-    border-top: 1px solid #eee9e6;
+    border-top: 1px solid #141110;
     padding: 20px 0;
 }
 
@@ -371,7 +371,7 @@ h2 {
     .general-5,
     .general-6 {
         height: 350px;
-        padding:  100px 30px;
+        padding:  100px ;
         margin-bottom: 10px;
     }
 
