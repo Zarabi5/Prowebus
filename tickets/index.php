@@ -30,14 +30,15 @@
                     <div class="card">
                         <div class="card-body">
                         <form action="./auth/login.php" method="post">
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" name="email" placeholder="email">
-                                <label>Email</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" name="email" placeholder="password">
-                                <label>Password</label>
-                            </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" name="email" placeholder="email">
+                            <label>Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" name="password" placeholder="password">
+                            <label>Password</label>
+                        </div>
+
                             <button type="submit" class="btn btn-primary">Iniciar sesión</button>
                         </form>
                         </div>
@@ -47,7 +48,7 @@
         </div>
     </main>
     <footer>
-        <!-- place footer here 
+        <!-- place footer here -->
     <?php // include 'includes/footer.php'; ?>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
